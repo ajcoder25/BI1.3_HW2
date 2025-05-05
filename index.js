@@ -131,10 +131,10 @@ app.get("/hotels/hotelName/:hotelName", async (req, res) => {
   }
 });
 
-const PORT = 5000;
-app.listen(PORT, () => {
-  console.log(`You have connected to ${PORT}`);
-});
+// const PORT = 5000;
+// app.listen(PORT, () => {
+//   console.log(`You have connected to ${PORT}`);
+// });
 
 // to show the phone Number
 
