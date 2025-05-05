@@ -285,3 +285,5 @@ app.post("/hotel/:hotelId", async (req, res) => {
     res.status(404).json({ error: "Something in the wrong in Route" });
   }
 });
+
+module.exports = app;
